@@ -2,6 +2,10 @@ import React from "react"
 import { CgWorkAlt } from "react-icons/cg"
 import { FaReact } from "react-icons/fa"
 import { LuGraduationCap } from "react-icons/lu"
+import Portfolio from "../../public/Portfolio.png"
+import SudokuSolver from "../../public/SudokuSolver.png"
+import WordleSolver from "../../public/WordleSolver.png"
+import WordleSolver_Solved from "../../public/WordleSolver_Solved.png"
 
 export const links = [
   {
@@ -59,22 +63,25 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "SudokuSolver",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "I built a Sudoku solver that can solve any Sudoku puzzle in a few seconds. It uses a backtracking algorithm to solve the puzzle. It can also automatically solve a New York Times Sudoku with Robocorp library.",
+    tags: ["Python", "Algorithm", "Robocorp"],
+    imageUrl: SudokuSolver,
   },
   {
-    title: "rmtDev",
+    title: "WordleSolver",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "I wanted to build an algorithm to solve Wordle as efficiently as possible. I implemented a text-based version that guesses most words in 3 tries.",
+    tags: ["Scala", "Algorithm", "Hobbyproject"],
+    imageUrl: WordleSolver,
   },
   {
-    title: "Word Analytics",
+    title: "Portfolio",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "I built this portfolio using Next.js and Tailwind. I wanted to learn Front-End Development. I also wanted to show my projects and skills in a visually appealing way.",
+    tags: ["React", "Next.js", "TypeScript", "Tailwind", "Framer"],
+    imageUrl: Portfolio,
   },
 ] as const
 
