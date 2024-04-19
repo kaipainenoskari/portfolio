@@ -1,11 +1,10 @@
 import React from "react"
 import { CgWorkAlt } from "react-icons/cg"
-import { FaReact, FaLaptopCode } from "react-icons/fa"
+import { FaLaptopCode } from "react-icons/fa"
 import { LuGraduationCap } from "react-icons/lu"
 import Portfolio from "../../public/Portfolio.png"
 import SudokuSolver from "../../public/SudokuSolver.png"
 import WordleSolver from "../../public/WordleSolver.png"
-import WordleSolver_Solved from "../../public/WordleSolver_Solved.png"
 
 export const links = [
   {
