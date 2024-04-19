@@ -51,7 +51,7 @@ export const experiencesData = [
     title: "Course Assistant",
     location: "Otaniemi, Espoo",
     description:
-      "I'm currently working as course assistant for the course CS-A1120 Programming 2 for the second time.",
+      "I'm currently working as a course assistant for the course CS-A1120 Programming 2 for the second time.",
     icon: React.createElement(FaLaptopCode),
     date: "2024 - present",
   },
