@@ -42,7 +42,7 @@ export const experiencesData = [
     title: "Software Developer Intern",
     location: "Bonwal Oy",
     description:
-      "I'm currently working as a Software Developer Intern at Bonwal Oy. I'm working with React Native, TypeScript and Robot Framework and Jest for Software testing.",
+      "I'm currently working as a Software Developer Intern at Bonwal Oy. I'm working with React Native, TypeScript, Robot Framework and Jest.",
     icon: React.createElement(CgWorkAlt),
     date: "2024 - present",
   },
