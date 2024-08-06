@@ -31,7 +31,7 @@ export default function About() {
 				for databases,{' '}
 				<span className='font-bold'>Robot FrameWork</span> for testing and right now I'm learning{' '}
 				<span className='font-bold'>Next.js</span>. I'm currently looking for a summer job or an internship for the{' '}
-				<span className='underline'>summer of 2024.</span>
+				<span className='underline'>summer of 2025.</span>
 			</p>
 			<p>
 				When I'm not coding, I like to play chess, football, tennis and padel. I enjoy learning new things both in the field of Computer Science and elsewhere and I'm always looking for new challenges.

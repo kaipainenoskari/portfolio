@@ -31,12 +31,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Bachelor's Degree in Computer Science",
+    title: "Master's Degree in Computer Science",
     location: "Otaniemi, Espoo",
     description:
-      "I'm set to finish my Bachelor's degree in computer science at Aalto University. I also did a minor in industrial engineering and management.",
+      "I'm currently doing my Master's Degree in Computer Science at Aalto University. I also did a minor in Industrial Engineering and Management.",
     icon: React.createElement(LuGraduationCap),
-    date: "2021 - 2024",
+    date: "2021 - 2026",
+  },
+  {
+    title: "Software Developer Intern",
+    location: "Bonwal Oy",
+    description:
+      "I'm currently working as a Software Developer Intern at Bonwal Oy. I'm working with React Native, TypeScript and Robot Framework and Jest for Software testing.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2024 - present",
+  },
+  {
+    title: "Course Assistant",
+    location: "Otaniemi, Espoo",
+    description:
+      "I'm currently working as a course assistant for the course CS-A1120 Programming 2 for the second time.",
+    icon: React.createElement(FaLaptopCode),
+    date: "2024",
   },
   {
     title: "Course Assistant",
@@ -45,14 +61,6 @@ export const experiencesData = [
       "I worked as a course assistant for the course CS-A1120 Programming 2. I helped students with their Scala programming assignments and other technical problems they might have had.",
     icon: React.createElement(CgWorkAlt),
     date: "2023",
-  },
-  {
-    title: "Course Assistant",
-    location: "Otaniemi, Espoo",
-    description:
-      "I'm currently working as a course assistant for the course CS-A1120 Programming 2 for the second time.",
-    icon: React.createElement(FaLaptopCode),
-    date: "2024 - present",
   },
 ] as const
 
@@ -86,6 +94,7 @@ export const skillsData = [
   "JavaScript",
   "TypeScript",
   "React",
+  "React Native",
   "Next.js",
   "Node.js",
   "Git",
@@ -96,5 +105,6 @@ export const skillsData = [
   "Python",
   "Framer Motion",
   "Scala",
-  "Robot FrameWork"
+  "Robot FrameWork",
+  "Jest"
 ] as const
