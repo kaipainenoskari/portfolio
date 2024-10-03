@@ -18,19 +18,22 @@ export default function About() {
 		>
 			<SectionHeading>About Me</SectionHeading>
 			<p className='mb-3'>
-				I'm currently on my third year studying Computer Science at{' '}
+				I'm currently doing my Masters (Software & Service Engineering) at{' '}
 				<span className='font-bold'>Aalto University.</span> {' '}
-				I'm interested in both {' '}
-				<span className='font-bold'>Front-End</span> and{' '}
-				<span className='font-bold'>Back-End</span> Development. My core stack in Web-Development is{' '}
+				I'm interested in{' '}
+				<span className='font-bold'>Front-End</span>,{' '}
+				<span className='font-bold'>Back-End</span> and{' '}
+				<span className='font-bold'>Mobile</span> Development. My core stack in Web-& Mobile-Development is{' '}
 				<span className='font-bold'>TypeScript</span>,{' '}
-				<span className='font-bold'>React</span> and{' '}
+				<span className='font-bold'>React</span>,{' '}
+				<span className='font-bold'>React Native</span> and{' '}
 				<span className='font-bold'>Node.js</span>.{' '}
 				I have also used{' '}
-				<span className='font-bold'>MongoDB</span>{' '}
+				<span className='font-bold'>MongoDB</span> and{' '}
+				<span className='font-bold'>PostgreSQL</span>{' '}
 				for databases,{' '}
 				<span className='font-bold'>Robot FrameWork</span> for testing and right now I'm learning{' '}
-				<span className='font-bold'>Next.js</span>. I'm currently looking for a summer job or an internship for the{' '}
+				<span className='font-bold'>Next.js</span>. I'm currently looking for exciting challenges for the{' '}
 				<span className='underline'>summer of 2025.</span>
 			</p>
 			<p>

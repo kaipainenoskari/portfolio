@@ -39,10 +39,10 @@ export const experiencesData = [
     date: "2021 - 2026",
   },
   {
-    title: "Software Developer Intern",
+    title: "Software Developer",
     location: "Bonwal Oy",
     description:
-      "I'm currently working as a Software Developer Intern at Bonwal Oy. I'm working with React Native, TypeScript, Robot Framework and Jest.",
+      "I'm currently working as a Software Developer at Bonwal Oy. I'm working with React Native, TypeScript, Robot Framework and Jest.",
     icon: React.createElement(CgWorkAlt),
     date: "2024 - present",
   },
@@ -50,7 +50,7 @@ export const experiencesData = [
     title: "Course Assistant",
     location: "Otaniemi, Espoo",
     description:
-      "I'm currently working as a course assistant for the course CS-A1120 Programming 2 for the second time.",
+      "I worked as a course assistant for the course CS-A1120 Programming 2 for the second time.",
     icon: React.createElement(FaLaptopCode),
     date: "2024",
   },
