@@ -71,6 +71,7 @@ export const projectsData = [
       "I built a Sudoku solver that can solve any Sudoku puzzle in a few seconds. It uses a backtracking algorithm to solve the puzzle. It can also automatically solve a New York Times Sudoku with Robocorp library.",
     tags: ["Python", "Algorithm", "Robocorp"],
     imageUrl: SudokuSolver,
+    link: "https://github.com/kaipainenoskari/sudokuSolver",
   },
   {
     title: "WordleSolver",
@@ -78,6 +79,7 @@ export const projectsData = [
       "I wanted to build an algorithm to solve Wordle as efficiently as possible. I implemented a text-based version that guesses most words in 3 tries.",
     tags: ["Scala", "Algorithm", "Hobbyproject"],
     imageUrl: WordleSolver,
+    link: "https://github.com/kaipainenoskari/wordleSolverRefactored",
   },
   {
     title: "Portfolio",
@@ -85,6 +87,7 @@ export const projectsData = [
       "I built this portfolio using Next.js and Tailwind. I wanted to learn Front-End Development. I also wanted to show my projects and skills in a visually appealing way.",
     tags: ["React", "Next.js", "TypeScript", "Tailwind", "Framer"],
     imageUrl: Portfolio,
+    link: "https://github.com/kaipainenoskari/portfolio",
   },
 ] as const
 

@@ -17,7 +17,7 @@ export default function Projects() {
 					<React.Fragment key={index}>
 						<Project {...project} />
 					</React.Fragment>
-					))}
+				))}
 			</div>
 		</section>
 	)
