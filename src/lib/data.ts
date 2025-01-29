@@ -92,14 +92,13 @@ export const projectsData = [
 ] as const
 
 export const skillsData = [
-  "HTML",
-  "CSS",
   "JavaScript",
   "TypeScript",
   "React",
   "React Native",
   "Next.js",
   "Node.js",
+  "DevOps",
   "Git",
   "Tailwind",
   "MongoDB",
