@@ -31,12 +31,20 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Master's Degree in Computer Science",
+    title: "Master's Degree in Software and Service Engineering",
     location: "Otaniemi, Espoo",
     description:
-      "I'm currently doing my Master's Degree in Computer Science at Aalto University. I also did a minor in Industrial Engineering and Management.",
+      "Currently studying for my master's degree, majoring in Software and Service Engineering. My minor is in Machine Learning, Data Science and Artificial Intelligence.",
     icon: React.createElement(LuGraduationCap),
-    date: "2021 - 2026",
+    date: "2024 - 2026",
+  },
+  {
+    title: "Bachelor's Degree in Computer Science",
+    location: "Otaniemi, Espoo",
+    description:
+      "Graduated with a bachelor's degree in 2024. Minored in Industrial Engineering and Management.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2021 - 2024",
   },
   {
     title: "Software Developer",
@@ -50,7 +58,7 @@ export const experiencesData = [
     title: "Course Assistant",
     location: "Otaniemi, Espoo",
     description:
-      "I worked as a course assistant for the course CS-A1120 Programming 2 for the second time.",
+      "Serving my second year as a Course Assistant for CS-A1120 - Programming 2, continuing to support students and assist in course delivery.",
     icon: React.createElement(FaLaptopCode),
     date: "2024",
   },
@@ -58,7 +66,7 @@ export const experiencesData = [
     title: "Course Assistant",
     location: "Otaniemi, Espoo",
     description:
-      "I worked as a course assistant for the course CS-A1120 Programming 2. I helped students with their Scala programming assignments and other technical problems they might have had.",
+      "Course Assistant for CS-A1120 - Programming 2, where I facilitated English language workshops to support students with Scala programming exercises and address various technical challenges.",
     icon: React.createElement(CgWorkAlt),
     date: "2023",
   },

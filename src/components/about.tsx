@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useEffect } from 'react'
+import React from 'react'
 import SectionHeading from './section-heading'
 import { motion } from 'framer-motion'
 import { useSectionInView } from '@/lib/hooks'
@@ -37,7 +37,7 @@ export default function About() {
 				<span className='underline'>summer of 2025.</span>
 			</p>
 			<p>
-				When I'm not coding, I like to play chess, football, tennis and padel. I enjoy learning new things both in the field of Computer Science and elsewhere and I'm always looking for new challenges.
+				When I'm not coding, I enjoy playing football, chess, tennis, and padel. I have a passion for learning, whether it's in the field of Computer Science or beyond, and I'm always on the lookout for new challenges.
 			</p>
 		</motion.section>
 	)
